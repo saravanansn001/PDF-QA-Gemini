@@ -1,0 +1,25 @@
+flask
+flask-cors
+python-dotenv
+
+# Gemini SDKs
+google-genai
+
+# LangChain + Gemini integrations
+langchain
+langchain_google_genai
+langchain_community
+langchain-text-splitters
+
+# PDF parsing
+PyPDF2
+
+# Keep numpy < 2 to avoid ABI issues with some native deps
+numpy<2
+
+# Optional UI (not used by current code, but kept if you plan to add Streamlit)
+streamlit
+
+# FAISS note:
+# - On macOS Apple Silicon, installing FAISS via pip often fails (no wheel → source build).
+# - Recommended: `conda install -c conda-forge faiss-cpu`

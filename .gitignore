@@ -1,0 +1,4 @@
+.DS_Store
+.vscode/launch.json
+vector_store/index.faiss
+vector_store/index.pkl
