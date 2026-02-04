@@ -1,4 +1,4 @@
-# AIChatBot(Python)
+# AIChatBot (Python)
 
 This folder contains a small Python backend that supports two workflows:
 
